@@ -1,0 +1,427 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "line": 54,
+        "name": "I want to go on a Vacation with Friends",
+        "description": "",
+        "id": "learning-defensive-techniques;i-want-to-go-on-a-vacation-with-friends;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2714200,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "We have vacation days",
+            "match": {
+              "arguments": [
+                {
+                  "val": "vacation",
+                  "offset": 8
+                }
+              ],
+              "location": "Practice.We_have(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 780200,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "We want to go on multiple destination holidays",
+            "match": {
+              "arguments": [
+                {
+                  "val": "destination",
+                  "offset": 26
+                }
+              ],
+              "location": "Practice.We_want(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9526400,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "We are 3 friends",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 7
+                }
+              ],
+              "location": "Practice.We_are(int,String,String\u003e\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Friend 1",
+                  "Friend 2",
+                  "Friend 3"
+                ]
+              },
+              {
+                "cells": [
+                  "Rohan",
+                  "Mohan",
+                  "Sohan"
+                ]
+              },
+              {
+                "cells": [
+                  "20",
+                  "30",
+                  "40"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1156300,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "We booked flight to Tokyo on 10th Dec 2019",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Tokyo",
+                  "offset": 20
+                },
+                {
+                  "val": "10th Dec 2019",
+                  "offset": 29
+                }
+              ],
+              "location": "Practice.We_booked(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 801100,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "Return Flight on 20th Dec 2019",
+            "match": {
+              "arguments": [
+                {
+                  "val": "20th Dec 2019",
+                  "offset": 17
+                }
+              ],
+              "location": "Practice.Return_Flight(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@LearningMMA"
+          },
+          {
+            "name": "@BookFlight"
+          }
+        ]
+      },
+      {
+        "line": 55,
+        "name": "I want to go on a Vacation with Friends",
+        "description": "",
+        "id": "learning-defensive-techniques;i-want-to-go-on-a-vacation-with-friends;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 994000,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "We have vacation days",
+            "match": {
+              "arguments": [
+                {
+                  "val": "vacation",
+                  "offset": 8
+                }
+              ],
+              "location": "Practice.We_have(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 550100,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "We want to go on multiple destination holidays",
+            "match": {
+              "arguments": [
+                {
+                  "val": "destination",
+                  "offset": 26
+                }
+              ],
+              "location": "Practice.We_want(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1592800,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "We are 3 friends",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 7
+                }
+              ],
+              "location": "Practice.We_are(int,String,String\u003e\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Friend 1",
+                  "Friend 2",
+                  "Friend 3"
+                ]
+              },
+              {
+                "cells": [
+                  "Rohan",
+                  "Mohan",
+                  "Sohan"
+                ]
+              },
+              {
+                "cells": [
+                  "20",
+                  "30",
+                  "40"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 785000,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "We booked flight to Hawai on 3rd Jan 2020",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Hawai",
+                  "offset": 20
+                },
+                {
+                  "val": "3rd Jan 2020",
+                  "offset": 29
+                }
+              ],
+              "location": "Practice.We_booked(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 874000,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "Return Flight on 12th Jan 2020",
+            "match": {
+              "arguments": [
+                {
+                  "val": "12th Jan 2020",
+                  "offset": 17
+                }
+              ],
+              "location": "Practice.Return_Flight(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@LearningMMA"
+          },
+          {
+            "name": "@BookFlight"
+          }
+        ]
+      },
+      {
+        "line": 56,
+        "name": "I want to go on a Vacation with Friends",
+        "description": "",
+        "id": "learning-defensive-techniques;i-want-to-go-on-a-vacation-with-friends;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 789800,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "We have vacation days",
+            "match": {
+              "arguments": [
+                {
+                  "val": "vacation",
+                  "offset": 8
+                }
+              ],
+              "location": "Practice.We_have(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 471500,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "We want to go on multiple destination holidays",
+            "match": {
+              "arguments": [
+                {
+                  "val": "destination",
+                  "offset": 26
+                }
+              ],
+              "location": "Practice.We_want(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 961200,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "We are 3 friends",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 7
+                }
+              ],
+              "location": "Practice.We_are(int,String,String\u003e\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Friend 1",
+                  "Friend 2",
+                  "Friend 3"
+                ]
+              },
+              {
+                "cells": [
+                  "Rohan",
+                  "Mohan",
+                  "Sohan"
+                ]
+              },
+              {
+                "cells": [
+                  "20",
+                  "30",
+                  "40"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1591500,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "We booked flight to Canada on 2nd Feb 2020",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Canada",
+                  "offset": 20
+                },
+                {
+                  "val": "2nd Feb 2020",
+                  "offset": 30
+                }
+              ],
+              "location": "Practice.We_booked(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 808300,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "Return Flight on 18th Feb 2020",
+            "match": {
+              "arguments": [
+                {
+                  "val": "18th Feb 2020",
+                  "offset": 17
+                }
+              ],
+              "location": "Practice.Return_Flight(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@LearningMMA"
+          },
+          {
+            "name": "@BookFlight"
+          }
+        ]
+      }
+    ],
+    "name": "Learning Defensive Techniques",
+    "description": "  I want to learn MMA to defend myself",
+    "id": "learning-defensive-techniques",
+    "keyword": "Feature",
+    "uri": "src/test/resources/basics/cucumber/practice.feature",
+    "tags": [
+      {
+        "name": "@LearningMMA",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
